@@ -1,0 +1,58 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+.app{
+    max-width: 600px;
+    margin: auto;
+    text-align: center;    
+}
+input{
+    padding: 20px;
+    margin: 5px;
+    width: 70%;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+button{
+    padding: 10px 15px;
+    margin: 5px;
+    border: none;
+    background-color: #0077ff;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #005ec2;
+
+}
+.note-container{
+    margin-top: 20px;
+    display: grid;
+    gap: 20px;
+}
+.note{
+    background-color: white;
+    padding: 10px;
+    border-radius:10px;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+.alert {
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 8px;
+}
+.alert{
+    background-color:  #d4edda;
+    color: #155724;
+}
+.alert.error{
+  background: #f8d7da;
+  color: #721c24;
+}
